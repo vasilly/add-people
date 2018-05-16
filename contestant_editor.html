@@ -1,0 +1,15 @@
+<form>
+  <h2>New Contestant</h2>
+  <fieldset>
+    <label>
+      First names
+      <input ng-model="ctrl.contestant.firstName">
+    </label>
+    <label>
+      Last names
+      <input ng-model="ctrl.contestant.lastName">
+    </label>
+    <button ng-click="ctrl.save()">Save</button>
+    <button ng-click="ctrl.delete()">Delete</button>
+  </fieldset>
+</form>
